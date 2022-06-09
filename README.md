@@ -1,7 +1,7 @@
 # 🏆 GitHub Achievements 🏆
 
 <br>
-
+<achievement-badge-flip data-action="mouseenter:achievement-badge-flip#flip"></achievement-badge-flip>
 <div align="center">
   <img src="https://user-images.githubusercontent.com/65187002/172915654-8f0e68d4-57da-4162-b3e4-061222c7a6f3.jpg" width="60%">
 </div>
@@ -13,6 +13,7 @@
 <br>
 
 ## 🏅 Displaying Achievements 🏅
+
 
 #### Displaying achievements on your profile is completely optional; by default, they can be seen by anyone viewing your public profile.
 
@@ -35,3 +36,10 @@
 | ![Galaxy Brain](https://github.githubassets.com/images/modules/profile/achievements/galaxy-brain-default.png) | Galaxy Brain | ✔️ | Answered a discussion<br>(got an accepted answer) | <table>  <thead>  <tr>  <th>DEFAULT</th> <th>BRONZE</th>  <th>SILVER</th>  <th>GOLD</th>  </tr>  </thead>  <tbody>  <tr>  <td><img src="https://github.githubassets.com/images/modules/profile/achievements/galaxy-brain-default.png" width="60px"></td>  <td><img src="https://github.githubassets.com/images/modules/profile/achievements/galaxy-brain-bronze.png" width="60px" align="center"></td>  <td><img src="https://github.githubassets.com/images/modules/profile/achievements/galaxy-brain-silver.png" width="60px"></td>  <td><img src="https://github.githubassets.com/images/modules/profile/achievements/galaxy-brain-gold.png" width="60px"></td>  </tr>  <tr>  <td>2</td> <td>8</td>  <td>16</td>  <td>32</td>  </tr>   </tbody>  </table>
 | ![YOLO](https://github.githubassets.com/images/modules/profile/achievements/yolo-default.png)                 | YOLO         | ❌ | Merged a pull request without a review | <table>  <thead>  <tr>  <th>DEFAULT</th>  </tr>  </thead>  <tbody>  <tr>  <td><img src="https://github.githubassets.com/images/modules/profile/achievements/yolo-default.png" width="60px"></td> </tr>  <tr>  <td>1</td> </tr>   </tbody>  </table> |
 
+<br>
+
+## ℹ️ More information ℹ️
+
+<br>
+
+You can find more information about GitHub Badges under this [link](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/personalizing-your-profile#displaying-badges-on-your-profile).
