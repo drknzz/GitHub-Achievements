@@ -18,6 +18,12 @@
 
 #### You can opt out from having achievements displayed on your profile by going to your [profile settings](https://github.com/settings).
 
+
+<!-- ## 👀 Viewing Achievements 👀
+
+#### You can view all your achievements under [link](https://github.com/USERNAME?tab=achievements).
+ -->
+
 <br>
 
 ## 📃 Badge List 📃
@@ -26,7 +32,7 @@
 
 | Badge | Name | Stackable | How to get | Needed amount | 
 | :-: | :-: | :-: | :-: | :-: |
-| ![Pull Shark](https://github.githubassets.com/images/modules/profile/achievements/pull-shark-default.png)     | Pull Shark   | ✔️ | Opened a pull request that has been merged | <table>  <thead>  <tr>  <th>BRONZE</th>  <th>SILVER</th>  <th>GOLD</th>  </tr>  </thead>  <tbody>  <tr>  <td><img src="https://github.githubassets.com/images/modules/profile/achievements/pull-shark-bronze.png" width="60px" align="center"></td>  <td><img src="https://github.githubassets.com/images/modules/profile/achievements/pull-shark-silver.png" width="60px"></td>  <td><img src="https://github.githubassets.com/images/modules/profile/achievements/pull-shark-gold.png" width="60px"></td>  </tr>  <tr>  <td>1</td>  <td>3</td>  <td>4</td>  </tr>   </tbody>  </table>      |
-| ![Galaxy Brain](https://github.githubassets.com/images/modules/profile/achievements/galaxy-brain-default.png) | Galaxy Brain | ✔️ | Answered a discussion | <table>  <thead>  <tr>  <th>BRONZE</th>  <th>SILVER</th>  <th>GOLD</th>  </tr>  </thead>  <tbody>  <tr>  <td><img src="https://github.githubassets.com/images/modules/profile/achievements/galaxy-brain-bronze.png" width="60px" align="center"></td>  <td><img src="https://github.githubassets.com/images/modules/profile/achievements/galaxy-brain-silver.png" width="60px"></td>  <td><img src="https://github.githubassets.com/images/modules/profile/achievements/galaxy-brain-gold.png" width="60px"></td>  </tr>  <tr>  <td>1</td>  <td>3</td>  <td>4</td>  </tr>   </tbody>  </table>
+| ![Pull Shark](https://github.githubassets.com/images/modules/profile/achievements/pull-shark-default.png)     | Pull Shark   | ✔️ | Opened a pull request that has been merged | <table>  <thead>  <tr>  <th>BRONZE</th>  <th>SILVER</th>  <th>GOLD</th>  </tr>  </thead>  <tbody>  <tr>  <td><img src="https://github.githubassets.com/images/modules/profile/achievements/pull-shark-bronze.png" width="60px" align="center"></td>  <td><img src="https://github.githubassets.com/images/modules/profile/achievements/pull-shark-silver.png" width="60px"></td>  <td><img src="https://github.githubassets.com/images/modules/profile/achievements/pull-shark-gold.png" width="60px"></td>  </tr>  <tr>  <td>16</td>  <td>128</td>  <td>1024</td>  </tr>   </tbody>  </table>      |
+| ![Galaxy Brain](https://github.githubassets.com/images/modules/profile/achievements/galaxy-brain-default.png) | Galaxy Brain | ✔️ | Answered a discussion | <table>  <thead>  <tr>  <th>BRONZE</th>  <th>SILVER</th>  <th>GOLD</th>  </tr>  </thead>  <tbody>  <tr>  <td><img src="https://github.githubassets.com/images/modules/profile/achievements/galaxy-brain-bronze.png" width="60px" align="center"></td>  <td><img src="https://github.githubassets.com/images/modules/profile/achievements/galaxy-brain-silver.png" width="60px"></td>  <td><img src="https://github.githubassets.com/images/modules/profile/achievements/galaxy-brain-gold.png" width="60px"></td>  </tr>  <tr>  <td>8</td>  <td>16</td>  <td>32</td>  </tr>   </tbody>  </table>
 | ![YOLO](https://github.githubassets.com/images/modules/profile/achievements/yolo-default.png)                 | YOLO         | ❌ | Merged without a review
 
