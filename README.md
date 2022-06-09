@@ -1,33 +1,33 @@
+<div align="center">
+  
 # 🏆 GitHub Achievements 🏆
 
 <br>
-<achievement-badge-flip data-action="mouseenter:achievement-badge-flip#flip"></achievement-badge-flip>
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/65187002/172915654-8f0e68d4-57da-4162-b3e4-061222c7a6f3.jpg" width="60%">
+
+
+<div>
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="https://user-images.githubusercontent.com/65187002/172940015-d9d072e7-c47d-4ddd-83f6-8e7717a721b8.png">
+    <img src="https://user-images.githubusercontent.com/65187002/172940773-7ef23b63-3356-4634-9e52-34f2676e2854.png">
+  </picture><br>
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="https://user-images.githubusercontent.com/65187002/172941127-4061fac1-736b-4c24-b7ea-c210b3578cc5.png">
+    <img width="50%" src="https://user-images.githubusercontent.com/65187002/172941149-31258408-bfc3-496a-8a58-e34794b21813.png">
+  </picture>
 </div>
-
-<!-- ![xd](https://github.githubassets.com/images/modules/profile/achievements/pull-shark-bronze.png) -->
-
-<!-- [Pull Shark Bronze]: https://github.githubassets.com/images/modules/profile/achievements/pull-shark-bronze.png "Pull Shark Bronze" -->
 
 <br>
 
-## 🏅 Displaying Achievements 🏅
+# 🏅 Displaying Achievements 🏅
 
 
 #### Displaying achievements on your profile is completely optional; by default, they can be seen by anyone viewing your public profile.
 
 #### You can opt out from having achievements displayed on your profile by going to your [profile settings](https://github.com/settings).
 
-
-<!-- ## 👀 Viewing Achievements 👀
-
-#### You can view all your achievements under [link](https://github.com/USERNAME?tab=achievements).
- -->
-
 <br>
 
-## 📃 Badge List 📃
+# 📃 Badge List 📃
 <br>
 
 | Badge | Name | Stackable | How to get | Needed amount | 
@@ -38,6 +38,8 @@
 
 <br>
 
-## ℹ️ More information ℹ️
+# ℹ️ More information ℹ️
 
 #### You can find more information about GitHub Badges under this [link](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/personalizing-your-profile#displaying-badges-on-your-profile).
+
+</div>
