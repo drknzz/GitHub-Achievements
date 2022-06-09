@@ -1,5 +1,7 @@
 # GitHub Achievements
 
+<br>
+
 <div align="center">
   <img src="https://user-images.githubusercontent.com/65187002/172915654-8f0e68d4-57da-4162-b3e4-061222c7a6f3.jpg" width="50%">
 </div>
@@ -7,6 +9,12 @@
 <!-- ![xd](https://github.githubassets.com/images/modules/profile/achievements/pull-shark-bronze.png) -->
 
 <!-- [Pull Shark Bronze]: https://github.githubassets.com/images/modules/profile/achievements/pull-shark-bronze.png "Pull Shark Bronze" -->
+
+<br>
+
+## Displaying Achievements
+
+Displaying achievements on your profile is completely optional; by default, they can be seen by anyone viewing your public profile. You can opt out from having achievements displayed on your profile by going to your [profile settings](https://github.com/settings).
 
 <br>
 
