@@ -7,10 +7,9 @@
 
 <br>
 
-<h2>Below is a list of GitHub Profile Achievements one can earn by doing some tasks.</h2>
+## Badge List
 
 <br>
-
 
 | Badge | Name | Stackable | How to get |
 | :-: | :-: | :-: | :-: |
