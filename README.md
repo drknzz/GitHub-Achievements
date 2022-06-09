@@ -1,11 +1,11 @@
-<div align="center">
+<!-- <div align="center"> -->
   
 # 🏆 GitHub Achievements 🏆
 
 <br>
 
 
-<div>
+<div align="center">
   <picture>
     <source media="(prefers-color-scheme: light)" srcset="https://user-images.githubusercontent.com/65187002/172940015-d9d072e7-c47d-4ddd-83f6-8e7717a721b8.png">
     <img src="https://user-images.githubusercontent.com/65187002/172940773-7ef23b63-3356-4634-9e52-34f2676e2854.png">
@@ -42,4 +42,4 @@
 
 #### You can find more information about GitHub Badges under this [link](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/personalizing-your-profile#displaying-badges-on-your-profile).
 
-</div>
+<!-- </div> -->
