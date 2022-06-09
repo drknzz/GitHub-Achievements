@@ -1,8 +1,13 @@
 # GitHub Achievements
 
+<div align="center">
+<img src="https://user-images.githubusercontent.com/65187002/172915654-8f0e68d4-57da-4162-b3e4-061222c7a6f3.jpg" width="50%">
+</div>
+
+
 <br>
 
-Below is a list of GitHub Profile Achievements one can earn by doing some tasks.
+<h2>Below is a list of GitHub Profile Achievements one can earn by doing some tasks.</h2>
 
 <br>
 
