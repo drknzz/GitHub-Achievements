@@ -1,4 +1,4 @@
-# GitHub Achievements 🏆
+# 🏆 GitHub Achievements 🏆
 
 <br>
 
@@ -12,7 +12,7 @@
 
 <br>
 
-## Displaying Achievements 🏅
+## 🏅 Displaying Achievements 🏅
 
 #### Displaying achievements on your profile is completely optional; by default, they can be seen by anyone viewing your public profile.
 
@@ -20,7 +20,7 @@
 
 <br>
 
-## Badge List 📃
+## 📃 Badge List 📃
 
 <br>
 
