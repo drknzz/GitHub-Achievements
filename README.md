@@ -62,9 +62,15 @@
 
 <br>
 
-
 # ℹ️ More information ℹ️
 
 #### You can find more information about GitHub Badges under this [link](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/personalizing-your-profile#displaying-badges-on-your-profile).
 
 <!-- </div> -->
+<br>
+
+####  
+
+<div align="center">
+  <img align="center" width="50%" src="https://user-images.githubusercontent.com/65187002/173199858-bd2a26cf-3e9f-4a2b-99fa-59b9ac1ecc7e.gif">
+</div>
