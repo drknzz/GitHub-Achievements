@@ -1,5 +1,5 @@
 <div align="center">
-
+  <h1></h1>
 <img src="https://user-images.githubusercontent.com/65187002/172940015-d9d072e7-c47d-4ddd-83f6-8e7717a721b8.png">
   
 <br>
@@ -14,25 +14,25 @@
 <br>
 
 <table>
-<tr align="center" valign="center">
+<tr align="center" valign="middle">
   <th>Badge</th>
   <th>Name</th>
   <th>How to get</th>
 </tr>
-<tr align="center" valign="center">
-  <td><img src="https://github.githubassets.com/images/modules/profile/achievements/pull-shark-default.png" width="200px" height="200px"></td>
-  <td>Pull Shark</td>
-  <td>Opened a pull request that has been merged</td>
+<tr align="center" valign="middle">
+  <td valign="middle"><img src="https://github.githubassets.com/images/modules/profile/achievements/pull-shark-default.png" width="200px" height="200px"></td>
+  <td valign="middle">Pull Shark</td>
+  <td valign="middle">Opened a pull request that has been merged</td>
 </tr>
-<tr align="center" valign="center">
+<tr align="center" valign="middle">
   <td><img src="https://github.githubassets.com/images/modules/profile/achievements/galaxy-brain-default.png" width="200px" height="200px"></td>
   <td>Galaxy Brain</td>
   <td>Answered a discussion<br>(got an accepted answer)</td>
 </tr>
-<tr align="center" height="50px" valign="center">
+<tr align="center" height="50px" valign="middle">
   <td colspan="3"><br>⋮<br><br></td>
 </tr>
-<tr align="center" valign="center">
+<tr align="center" valign="middle">
   <td colspan="3"><h1><a href="{{ site.github.repository_url }}">View <span>FULL</span> list on GitHub</a></h1></td>
 </tr>
 </table>
