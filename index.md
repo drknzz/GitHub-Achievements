@@ -4,7 +4,7 @@
   
 <br>
   
-<h1><a href="{{ site.github.repository_url }}">View <span>FULL</span> list on GitHub</a></h1>
+<h1><a href="{{ site.github.repository_url }}">View FULL list on GitHub</a></h1>
 
 <br>
 <br>
@@ -33,7 +33,7 @@
   <td colspan="3"><br>⋮<br><br></td>
 </tr>
 <tr align="center" valign="middle">
-  <td colspan="3"><h1><a href="{{ site.github.repository_url }}">View <span>FULL</span> list on GitHub</a></h1></td>
+  <td colspan="3"><h1><a href="{{ site.github.repository_url }}">View FULL list on GitHub</a></h1></td>
 </tr>
 </table>
 
@@ -63,7 +63,7 @@
   <td colspan="3"><br>⋮<br><br></td>
 </tr>
 <tr align="center" valign="center">
-  <td colspan="3"><h1><a href="{{ site.github.repository_url }}">View <span>FULL</span> list on GitHub</a></h1></td>
+  <td colspan="3"><h1><a href="{{ site.github.repository_url }}">View FULL list on GitHub</a></h1></td>
 </tr>
 </table>
 
@@ -87,7 +87,7 @@
   <td colspan="3"><br>⋮<br><br></td>
 </tr>
 <tr align="center" valign="center">
-  <td colspan="3"><h1><a href="{{ site.github.repository_url }}">View <span>FULL</span> list on GitHub</a></h1></td>
+  <td colspan="3"><h1><a href="{{ site.github.repository_url }}">View FULL list on GitHub</a></h1></td>
 </tr>
 </table>
   
