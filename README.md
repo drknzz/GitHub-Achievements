@@ -41,6 +41,22 @@
 
 <br>
 
+# 👋 Achievement Skin Tone 👋
+
+#### Some achievements' appearance depends on your preferred skin tone.
+
+#### You can change your preferred skin tone by going to [appearance settings](https://github.com/settings/appearance).
+
+<br>
+
+| Badge | Name | Skin Tone Versions | 
+| :-: | :-: | :-: |
+| ![Starstruck](https://github.githubassets.com/images/modules/profile/achievements/starstruck-default.png)                 | Starstruck         | <table>  <thead>  <tr>  <th>👋</th> <th>👋🏻</th>  <th>👋🏼</th>  <th>👋🏽</th>  <th>👋🏾</th>  <th>👋🏿</th>  </tr>  </thead>  <tbody>  <tr>  <td align="center"><img src="https://github.githubassets.com/images/modules/profile/achievements/starstruck-default.png" width="60px"></td>   <td align="center"><img src="https://github.githubassets.com/images/modules/profile/achievements/starstruck-default--light.png" width="60px"></td>  <td align="center"><img src="https://github.githubassets.com/images/modules/profile/achievements/starstruck-default--light-medium.png" width="60px"></td>  <td align="center"><img src="https://github.githubassets.com/images/modules/profile/achievements/starstruck-default--medium.png" width="60px"></td>  <td align="center"><img src="https://github.githubassets.com/images/modules/profile/achievements/starstruck-default--medium-dark.png" width="60px"></td>   <td align="center"><img src="https://github.githubassets.com/images/modules/profile/achievements/starstruck-default--dark.png" width="60px"></td>   </tr>   <tr>  <td align="center">👋</td> <td align="center">👋🏻</td>  <td align="center">👋🏼</td>  <td align="center">👋🏽</td>  <td align="center">👋🏾</td>  <td align="center">👋🏿</td>  </tr>  </tbody>  </table>      |
+| ![Quickdraw](https://github.githubassets.com/images/modules/profile/achievements/quickdraw-default.png)                 | Quickdraw         | <table>  <thead>  <tr>  <th>👋</th> <th>👋🏻</th>  <th>👋🏼</th>  <th>👋🏽</th>  <th>👋🏾</th>  <th>👋🏿</th>  </tr>  </thead>  <tbody>  <tr>  <td align="center"><img src="https://github.githubassets.com/images/modules/profile/achievements/quickdraw-default.png" width="60px"></td>   <td align="center"><img src="https://github.githubassets.com/images/modules/profile/achievements/quickdraw-default--light.png" width="60px"></td>  <td align="center"><img src="https://github.githubassets.com/images/modules/profile/achievements/quickdraw-default--light-medium.png" width="60px"></td>  <td align="center"><img src="https://github.githubassets.com/images/modules/profile/achievements/quickdraw-default--medium.png" width="60px"></td>  <td align="center"><img src="https://github.githubassets.com/images/modules/profile/achievements/quickdraw-default--medium-dark.png" width="60px"></td>   <td align="center"><img src="https://github.githubassets.com/images/modules/profile/achievements/quickdraw-default--dark.png" width="60px"></td>   </tr>   <tr>  <td align="center">👋</td> <td align="center">👋🏻</td>  <td align="center">👋🏼</td>  <td align="center">👋🏽</td>  <td align="center">👋🏾</td>  <td align="center">👋🏿</td>  </tr>  </tbody>  </table>      |
+
+
+<br>
+
 # ✨ Highlights Badges ✨
 <br>
 
