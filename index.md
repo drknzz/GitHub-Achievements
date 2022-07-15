@@ -20,14 +20,19 @@
   <th>How to get</th>
 </tr>
 <tr align="center" valign="middle">
+  <td><img src="https://github.githubassets.com/images/modules/profile/achievements/starstruck-default.png" width="200px" height="200px"></td>
+  <td>Starstruck</td>
+  <td>Created a repository that has many stars</td>
+</tr>
+<tr align="center" valign="middle">
+  <td><img src="https://github.githubassets.com/images/modules/profile/achievements/pair-extraordinaire-default.png" width="200px" height="200px"></td>
+  <td>Pair Extraordinaire</td>
+  <td>Coauthored commits on merged pull request</td>
+</tr>
+<tr align="center" valign="middle">
   <td valign="middle"><img src="https://github.githubassets.com/images/modules/profile/achievements/pull-shark-default.png" width="200px" height="200px"></td>
   <td valign="middle">Pull Shark</td>
   <td valign="middle">Opened a pull request that has been merged</td>
-</tr>
-<tr align="center" valign="middle">
-  <td><img src="https://github.githubassets.com/images/modules/profile/achievements/galaxy-brain-default.png" width="200px" height="200px"></td>
-  <td>Galaxy Brain</td>
-  <td>Answered a discussion<br>(got an accepted answer)</td>
 </tr>
 <tr align="center" height="50px" valign="middle">
   <td colspan="3"><br>⋮<br><br></td>
