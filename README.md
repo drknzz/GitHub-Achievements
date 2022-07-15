@@ -43,9 +43,9 @@
 
 # 👋 Achievement Skin Tone 👋
 
-#### Some achievements' appearance depends on your preferred skin tone.
+#### Some achievements' appearance depends on your Emoji Skin Tone Preference.
 
-#### You can change your preferred skin tone by going to [appearance settings](https://github.com/settings/appearance).
+#### You can change your preferred Skin Tone by going to [appearance settings](https://github.com/settings/appearance).
 
 <br>
 
