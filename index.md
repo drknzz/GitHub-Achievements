@@ -20,6 +20,16 @@
   <th>How to get</th>
 </tr>
 <tr align="center" valign="middle">
+  <td><img src="https://github.githubassets.com/images/modules/profile/achievements/heart-on-your-sleeve-default.png" width="200px" height="200px"></td>
+  <td>Heart On Your Sleeve</td>
+  <td>(???)</td>
+</tr>
+<tr align="center" valign="middle">
+  <td><img src="https://github.githubassets.com/images/modules/profile/achievements/open-sourcerer-default.png" width="200px" height="200px"></td>
+  <td>Open Sourcerer</td>
+  <td>(???)</td>
+</tr>
+<tr align="center" valign="middle">
   <td><img src="https://github.githubassets.com/images/modules/profile/achievements/starstruck-default.png" width="200px" height="200px"></td>
   <td>Starstruck</td>
   <td>Created a repository that has many stars</td>
