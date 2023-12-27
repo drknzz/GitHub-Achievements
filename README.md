@@ -72,6 +72,8 @@
 | ![security-bug-bounty-hunter-dark](/Media/Highlights/Security-Bug-Bounty-Hunter/SVG/Security-Bug-Bounty-Hunter_LightMode.svg#gh-dark-mode-only)![security-bug-bounty-hunter-light](Media/Highlights/Security-Bug-Bounty-Hunter/SVG/Security-Bug-Bounty-Hunter_DarkMode.svg#gh-light-mode-only) | Security Bug Bounty Hunter | Helped out hunting down security vulnerabilities at [GitHub Security](https://bounty.github.com/) |
 | ![github-campus-expert-dark](/Media/Highlights/GitHub-Campus-Expert/SVG/GitHub-Campus-Expert_LightMode.svg#gh-dark-mode-only)![github-campus-expert-light](/Media/Highlights/GitHub-Campus-Expert/SVG/GitHub-Campus-Expert_DarkMode.svg#gh-light-mode-only) | GitHub Campus Expert | Participate in the [GitHub Campus Program](https://education.github.com/experts) |
 | ![security-advisory-credit-dark](/Media/Highlights/Security-Advisory-Credit/SVG/Security-Advisory-Credit_LightMode.svg#gh-dark-mode-only)![security-advisory-credit-light](/Media/Highlights/Security-Advisory-Credit/SVG/Security-Advisory-Credit_DarkMode.svg#gh-light-mode-only) | Security advisory credit | Have your security advisory submitted to the [GitHub Advisory Database](https://github.com/advisories) accepted |
+| ![Discussion Answerer](https://img.shields.io/badge/Discussion%20Answerer-Yes-brightgreen) | Discussion Answerer | Answer discussions in the project |
+
 
 <br>
 
