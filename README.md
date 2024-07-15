@@ -26,7 +26,7 @@
 
 <br>
 
-# 📃 Achievement List 📃
+## 📃 Achievement List 📃
 <br>
 
 | Badge | Name | How to get | Needed amount | 
