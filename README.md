@@ -87,7 +87,7 @@
 
 # ℹ️ More information ℹ️
 
-#### You can find more information about GitHub Badges under this [link](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/personalizing-your-profile#displaying-badges-on-your-profile).
+#### Learn more in GitHub Docs: [Manage visibility settings for private contributions and achievements](https://docs.github.com/en/account-and-profile/how-tos/setting-up-and-managing-your-github-profile/managing-contribution-settings-on-your-profile/manage-visibility-settings-for-private-contributions-and-achievements)
 
 <!-- </div> -->
 <br>
