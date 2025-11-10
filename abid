@@ -1,0 +1,387 @@
+/*
+README (short):
+
+This is a single-file React + Tailwind portfolio template intended to be dropped into a standard React app (Create React App, Vite, Next.js page, etc.).
+
+How to use:
+1. Create a React app (Vite or CRA) and install Tailwind CSS following the official Tailwind docs: https://tailwindcss.com/docs/guides.
+2. Place this file as `src/App.jsx` (or as a page component in Next.js) and import in your entry point.
+3. Replace the sample data in the `projects` and `profile` objects with your real content (text, images, links).
+4. Run the dev server and edit freely. The component uses Tailwind utility classes and no external packages.
+
+What this file contains:
+- A responsive single-page portfolio layout
+- Hero, About, Skills, Projects, Experience, Contact, Footer
+- Dark mode toggle (client-side only)
+- JSON-like data block at top for easy editing
+
+Notes for customization:
+- Swap images by placing them in `public/` and referencing `/your-image.png` in the `projects` data.
+- To add pages or a blog, convert sections into routes (React Router or Next.js pages).
+
+*/
+
+import React, { useState } from "react";
+
+// -----------------------------
+// EDITABLE DATA
+// -----------------------------
+const profile = {
+  name: "Your Name",
+  title: "Full-Stack Developer & Problem Solver",
+  location: "City, Country",
+  email: "youremail@example.com",
+  github: "https://github.com/yourusername",
+  linkedin: "https://www.linkedin.com/in/yourusername/",
+  about: `I build fast, accessible, and delightful web applications. I enjoy solving hard problems, clean architecture, and mentoring others. Open to freelance and full-time opportunities.`,
+};
+
+const skills = [
+  "JavaScript (ES6+)",
+  "React / Next.js",
+  "Node.js / Express",
+  "TypeScript",
+  "Tailwind CSS",
+  "Docker",
+  "Postgres / MongoDB",
+  "Testing (Jest, React Testing Library)",
+];
+
+const projects = [
+  {
+    id: 1,
+    title: "Project One",
+    description:
+      "A short description describing what this project does, the tech used, and the impact.",
+    tech: ["React", "Node", "Postgres"],
+    github: "https://github.com/yourusername/project-one",
+    demo: "https://project-one.example.com",
+    image: "/project-1.png", // put a screenshot in public/
+  },
+  {
+    id: 2,
+    title: "Project Two",
+    description:
+      "A short description that highlights the problem you solved and a standout technical decision.",
+    tech: ["Next.js", "Vercel"],
+    github: "https://github.com/yourusername/project-two",
+    demo: "https://project-two.example.com",
+    image: "/project-2.png",
+  },
+  {
+    id: 3,
+    title: "Algorithms & Challenges",
+    description:
+      "Collection of algorithm solutions and performance-focused challenges (C++, Python).",
+    tech: ["C++", "Python"],
+    github: "https://github.com/yourusername/algorithms",
+    demo: "",
+    image: "/project-3.png",
+  },
+];
+
+// -----------------------------
+// SMALL UI HELPERS
+// -----------------------------
+function IconExternal() {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      className="h-4 w-4 inline-block ml-1"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+      strokeWidth={2}
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="M13 5h6m0 0v6m0-6L10 14"
+      />
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="M21 21H3V3"
+      />
+    </svg>
+  );
+}
+
+function Tag({ children }) {
+  return (
+    <span className="text-xs font-medium px-2 py-1 border rounded-full mr-2 mb-2 inline-block">
+      {children}
+    </span>
+  );
+}
+
+// -----------------------------
+// MAIN APP
+// -----------------------------
+export default function App() {
+  const [dark, setDark] = useState(true);
+  const [filter, setFilter] = useState("All");
+
+  const techSet = ["All", ...Array.from(new Set(projects.flatMap((p) => p.tech)))];
+
+  const visibleProjects = projects.filter((p) => {
+    if (filter === "All") return true;
+    return p.tech.includes(filter);
+  });
+
+  return (
+    <div className={dark ? "min-h-screen bg-slate-900 text-slate-100" : "min-h-screen bg-white text-slate-900"}>
+      <div className="max-w-6xl mx-auto px-6 py-8">
+        <Header dark={dark} setDark={setDark} profile={profile} />
+
+        <main className="mt-8">
+          <Hero profile={profile} />
+
+          <div className="grid md:grid-cols-3 gap-8 mt-12">
+            <div className="md:col-span-2">
+              <Projects
+                projects={visibleProjects}
+                techSet={techSet}
+                filter={filter}
+                setFilter={setFilter}
+              />
+
+              <Experience />
+            </div>
+
+            <aside className="space-y-6">
+              <About about={profile.about} />
+              <Skills skills={skills} />
+              <Contact profile={profile} />
+            </aside>
+          </div>
+        </main>
+
+        <Footer profile={profile} />
+      </div>
+    </div>
+  );
+}
+
+// -----------------------------
+// COMPONENTS
+// -----------------------------
+function Header({ dark, setDark, profile }) {
+  return (
+    <header className="flex items-center justify-between"> 
+      <div>
+        <h1 className="text-2xl font-bold">{profile.name}</h1>
+        <p className="text-sm opacity-70">{profile.title}</p>
+      </div>
+
+      <div className="flex items-center space-x-4">
+        <a href={profile.github} target="_blank" rel="noreferrer" className="text-sm underline-offset-2 hover:underline">GitHub</a>
+        <a href={profile.linkedin} target="_blank" rel="noreferrer" className="text-sm underline-offset-2 hover:underline">LinkedIn</a>
+
+        <button
+          onClick={() => setDark((d) => !d)}
+          className="px-3 py-1 rounded-lg border text-sm"
+          aria-label="Toggle dark mode"
+        >
+          {dark ? "Light" : "Dark"}
+        </button>
+      </div>
+    </header>
+  );
+}
+
+function Hero({ profile }) {
+  return (
+    <section className="mt-8 rounded-2xl p-6 border">
+      <div className="md:flex md:items-center md:justify-between">
+        <div>
+          <h2 className="text-3xl font-extrabold">Hi, I’m {profile.name}.</h2>
+          <p className="mt-2 text-lg opacity-80">{profile.title} — based in {profile.location}.</p>
+
+          <p className="mt-4 max-w-xl leading-relaxed">{profile.about}</p>
+
+          <div className="mt-4">
+            <a
+              href={profile.github}
+              target="_blank"
+              rel="noreferrer"
+              className="inline-block px-4 py-2 border rounded-md mr-2"
+            >
+              View GitHub
+            </a>
+
+            <a
+              href={`mailto:${profile.email}`}
+              className="inline-block px-4 py-2 bg-sky-500 text-white rounded-md"
+            >
+              Contact Me
+            </a>
+          </div>
+        </div>
+
+        <div className="mt-6 md:mt-0 md:ml-8 w-full max-w-xs">
+          <figure className="border rounded-xl p-4 text-center">
+            <div className="h-40 w-40 rounded-full bg-gradient-to-br from-sky-400 to-indigo-500 mx-auto flex items-center justify-center text-2xl font-bold">
+              {profile.name.split(" ").map((n) => n[0]).slice(0,2).join("")}
+            </div>
+            <figcaption className="mt-4 text-sm opacity-80">{profile.title}</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function Projects({ projects, techSet, filter, setFilter }) {
+  return (
+    <section className="mt-8">
+      <div className="flex items-center justify-between">
+        <h3 className="text-2xl font-bold">Projects</h3>
+
+        <div className="flex items-center space-x-2">
+          <label className="text-sm opacity-70">Filter:</label>
+          <select
+            value={filter}
+            onChange={(e) => setFilter(e.target.value)}
+            className="px-3 py-1 rounded-md border text-sm"
+          >
+            {techSet.map((t) => (
+              <option value={t} key={t}>{t}</option>
+            ))}
+          </select>
+        </div>
+      </div>
+
+      <div className="mt-6 grid md:grid-cols-2 gap-6">
+        {projects.map((p) => (
+          <article key={p.id} className="border rounded-xl p-4 hover:shadow-lg transition">
+            <div className="flex items-start">
+              <div className="flex-1">
+                <h4 className="font-semibold text-lg">{p.title}</h4>
+                <p className="text-sm mt-2 opacity-80">{p.description}</p>
+
+                <div className="mt-3">
+                  {p.tech.map((t) => (
+                    <Tag key={t}>{t}</Tag>
+                  ))}
+                </div>
+
+                <div className="mt-4 flex items-center space-x-3">
+                  {p.demo && (
+                    <a href={p.demo} target="_blank" rel="noreferrer" className="text-sm underline">Live demo <IconExternal/></a>
+                  )}
+
+                  {p.github && (
+                    <a href={p.github} target="_blank" rel="noreferrer" className="text-sm underline">Source</a>
+                  )}
+                </div>
+              </div>
+
+              <div className="ml-4 w-24 h-24 rounded-lg overflow-hidden bg-slate-700 flex items-center justify-center">
+                {/* Replace with an <img /> if you add screenshots to public/ */}
+                <span className="text-xs opacity-60">Screenshot</span>
+              </div>
+            </div>
+          </article>
+        ))}
+      </div>
+    </section>
+  );
+}
+
+function Skills({ skills }) {
+  return (
+    <section className="border rounded-xl p-4">
+      <h4 className="font-semibold mb-3">Skills</h4>
+      <div className="flex flex-wrap">
+        {skills.map((s) => (
+          <Tag key={s}>{s}</Tag>
+        ))}
+      </div>
+    </section>
+  );
+}
+
+function About({ about }) {
+  return (
+    <section className="border rounded-xl p-4">
+      <h4 className="font-semibold mb-2">About</h4>
+      <p className="text-sm opacity-80 leading-relaxed">{about}</p>
+    </section>
+  );
+}
+
+function Experience() {
+  // Minimal placeholder — replace with your jobs, internships or education
+  const items = [
+    {
+      role: "Software Engineer Intern",
+      company: "Startup X",
+      period: "Jun 2023 - Sep 2023",
+      bullets: ["Built a dashboard with React and Charting library.", "Improved API performance by 30%."]
+    },
+    {
+      role: "Teaching Assistant",
+      company: "CS Dept",
+      period: "2022 - 2024",
+      bullets: ["Led weekly labs for data structures and algorithms."]
+    },
+  ];
+
+  return (
+    <section className="mt-8">
+      <h4 className="font-semibold">Experience</h4>
+      <div className="mt-4 space-y-4">
+        {items.map((it, idx) => (
+          <div key={idx} className="border rounded-lg p-3">
+            <div className="flex items-center justify-between">
+              <div>
+                <p className="font-medium">{it.role}</p>
+                <p className="text-sm opacity-70">{it.company}</p>
+              </div>
+              <div className="text-sm opacity-70">{it.period}</div>
+            </div>
+            <ul className="mt-2 list-disc ml-5 text-sm opacity-80">
+              {it.bullets.map((b, i) => (
+                <li key={i}>{b}</li>
+              ))}
+            </ul>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+}
+
+function Contact({ profile }) {
+  return (
+    <section className="border rounded-xl p-4">
+      <h4 className="font-semibold mb-2">Contact</h4>
+      <p className="text-sm opacity-80">Email: <a className="underline" href={`mailto:${profile.email}`}>{profile.email}</a></p>
+      <p className="text-sm opacity-80">Location: {profile.location}</p>
+
+      <form className="mt-3 space-y-2" onSubmit={(e) => { e.preventDefault(); window.location.href = `mailto:${profile.email}`; }}>
+        <input className="w-full rounded-md border px-3 py-2 text-sm" placeholder="Your name" />
+        <input className="w-full rounded-md border px-3 py-2 text-sm" placeholder="Your email" />
+        <textarea className="w-full rounded-md border px-3 py-2 text-sm" placeholder="Message" rows={3} />
+        <div>
+          <button type="submit" className="px-4 py-2 rounded-md bg-sky-500 text-white">Send</button>
+        </div>
+      </form>
+    </section>
+  );
+}
+
+function Footer({ profile }) {
+  return (
+    <footer className="mt-12 border-t pt-6 text-sm opacity-80">
+      <div className="flex items-center justify-between">
+        <div>© {new Date().getFullYear()} {profile.name}. Built with ❤️.</div>
+        <div className="space-x-4">
+          <a href={profile.github} target="_blank" rel="noreferrer" className="underline">GitHub</a>
+          <a href={profile.linkedin} target="_blank" rel="noreferrer" className="underline">LinkedIn</a>
+        </div>
+      </div>
+    </footer>
+  );
+}
