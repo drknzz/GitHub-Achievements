@@ -1,6 +1,6 @@
 <!-- <div align="center"> -->
 
-# 🏆 GitHub Achievements 🏆
+# 🏆  GitHub Achievements 🏆
 
 <br>
 
