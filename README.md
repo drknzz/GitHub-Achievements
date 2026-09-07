@@ -95,5 +95,5 @@
 ####  
 
 <div align="center">
-  <img align="center" width="50%" src="/Media/Badges/Pull-Shark/GIF/PullShark_Animated.gif">
+  <img align="left" width="50%" src="/Media/Badges/Pull-Shark/GIF/PullShark_Animated.gif">
 </div>
