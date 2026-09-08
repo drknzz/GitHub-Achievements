@@ -1,0 +1,38 @@
+name: ✨ New badge
+description: Report a profile achievement or highlight badge that is missing from the list.
+labels: ["new badge"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Badge name
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Kind
+      options:
+        - Achievement (has tiers)
+        - Highlight badge (no tiers)
+    validations:
+      required: true
+  - type: textarea
+    id: criteria
+    attributes:
+      label: How it is earned
+      description: Include tier thresholds if the badge has bronze/silver/gold tiers.
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source
+      description: A link to GitHub Docs, the GitHub Changelog, or a GitHub Community discussion with a staff reply.
+    validations:
+      required: true
+  - type: textarea
+    id: artwork
+    attributes:
+      label: Artwork
+      description: Attach the badge images if you have them. They are added under `Media/` rather than hotlinked.

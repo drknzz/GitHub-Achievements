@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Question about a badge
+    url: https://github.com/drknzz/GitHub-Achievements/discussions
+    about: Ask in Discussions. Please search first — most badge questions are already answered there or in the README.
+  - name: 📖 Official GitHub documentation
+    url: https://docs.github.com/en/account-and-profile/reference/profile-reference
+    about: GitHub's own reference for profile badges and achievements.
+  - name: 📣 Sharing your own project or tool
+    url: https://github.com/drknzz/GitHub-Achievements/discussions
+    about: Project promotion, badge swaps and star-for-star requests are not accepted as issues.

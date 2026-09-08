@@ -1,0 +1,35 @@
+name: 🩹 Badge correction
+description: Report an achievement whose criteria, tier thresholds or availability are wrong in the README.
+labels: ["correction"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please search existing issues first, and check the **Badges no longer earnable**
+        section of the README before filing.
+  - type: input
+    id: badge
+    attributes:
+      label: Badge
+      placeholder: e.g. Galaxy Brain
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: What the README says today
+    validations:
+      required: true
+  - type: textarea
+    id: correct
+    attributes:
+      label: What it should say
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source
+      description: A link to GitHub Docs, the GitHub Changelog, or a GitHub Community discussion with a staff reply. Screenshots alone are not enough.
+    validations:
+      required: true
