@@ -78,7 +78,20 @@
 
 <br>
 
+### Retired Highlights
+
+| Badge | Name | How to get |
+| :-: | :-: | :-: |
+| ![discussion-answered-dark](/Media/Highlights/Discussion-Answered/SVG/Discussion-Answered_DarkMode.svg#gh-light-mode-only)![discussion-answered-light](/Media/Highlights/Discussion-Answered/SVG/Discussion-Answered_LightMode.svg#gh-dark-mode-only) | Discussion answered | Have your reply on a discussion marked as the answer (retired profile highlight; superseded by the [Galaxy Brain](#-achievement-list-) achievement) |
+
+<br>
+
 # ❌ Badges no longer earnable ❌
+<br>
+
+> [!NOTE]
+> For retired profile highlights, see [Retired Highlights](#retired-highlights).
+
 <br>
 
 | Badge | Name | How to get | Needed amount | 
