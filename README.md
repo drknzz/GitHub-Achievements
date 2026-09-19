@@ -26,7 +26,6 @@
 <br>
 # 📃 Achievement List 📃
 <br>
-
 | Badge | Name | How to get | Needed amount | 
 | :-: | :-: | :-: | :-: |
 | ![Heart On Your Sleeve](/Media/Badges/Heart-on-your-sleeve/PNG/HeartOnYourSleeve.png) | Heart On Your Sleeve | (???) | <table>  <thead>  <tr>  <th>DEFAULT</th> <th>BRONZE</th>  <th>SILVER</th>  <th>GOLD</th>  </tr>  </thead>  <tbody>  <tr>  <td align="center"><img src="/Media/Badges/Heart-on-your-sleeve/PNG/HeartOnYourSleeve.png" width="60px"></td>   <td><img src="/Media/Badges/Heart-on-your-sleeve/PNG/HeartOnYourSleeve_Bronze.png" width="60px" align="center"></td>  <td><img src="/Media/Badges/Heart-on-your-sleeve/PNG/HeartOnYourSleeve_Silver.png" width="60px"></td>  <td><img src="/Media/Badges/Heart-on-your-sleeve/PNG/HeartOnYourSleeve_Gold.png" width="60px"></td>  </tr>  <tr>  <td align="center">(?)</td>  <td align="center">(?)</td>  <td align="center">(?)</td>  <td align="center">(?)</td>  </tr>   </tbody>  </table> |
