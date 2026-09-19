@@ -23,7 +23,6 @@
 #### Displaying achievements on your profile is completely optional; by default, they can be seen by anyone viewing your public profile.
 
 #### You can opt out from having achievements displayed on your profile by going to your [profile settings](https://github.com/settings).
-
 <br>
 # 📃 Achievement List 📃
 <br>
