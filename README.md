@@ -40,7 +40,6 @@
 
 
 <br>
-
 # 👋 Achievement Skin Tone 👋
 
 #### Some achievements' appearance depends on your Emoji Skin Tone Preference.
