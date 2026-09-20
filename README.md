@@ -17,18 +17,12 @@
 </div>
 
 <br>
-
 # 🏅 Displaying Achievements 🏅
-
 #### Displaying achievements on your profile is completely optional; by default, they can be seen by anyone viewing your public profile.
-
 #### You can opt out from having achievements displayed on your profile by going to your [profile settings](https://github.com/settings).
-
 <br>
-
 # 📃 Achievement List 📃
 <br>
-
 | Badge | Name | How to get | Needed amount | 
 | :-: | :-: | :-: | :-: |
 | ![Heart On Your Sleeve](/Media/Badges/Heart-on-your-sleeve/PNG/HeartOnYourSleeve.png) | Heart On Your Sleeve | (???) | <table>  <thead>  <tr>  <th>DEFAULT</th> <th>BRONZE</th>  <th>SILVER</th>  <th>GOLD</th>  </tr>  </thead>  <tbody>  <tr>  <td align="center"><img src="/Media/Badges/Heart-on-your-sleeve/PNG/HeartOnYourSleeve.png" width="60px"></td>   <td><img src="/Media/Badges/Heart-on-your-sleeve/PNG/HeartOnYourSleeve_Bronze.png" width="60px" align="center"></td>  <td><img src="/Media/Badges/Heart-on-your-sleeve/PNG/HeartOnYourSleeve_Silver.png" width="60px"></td>  <td><img src="/Media/Badges/Heart-on-your-sleeve/PNG/HeartOnYourSleeve_Gold.png" width="60px"></td>  </tr>  <tr>  <td align="center">(?)</td>  <td align="center">(?)</td>  <td align="center">(?)</td>  <td align="center">(?)</td>  </tr>   </tbody>  </table> |
@@ -43,15 +37,12 @@
 
 
 <br>
-
 # 👋 Achievement Skin Tone 👋
 
 #### Some achievements' appearance depends on your Emoji Skin Tone Preference.
 
 #### You can change your preferred Skin Tone by going to [appearance settings](https://github.com/settings/appearance).
-
 <br>
-
 | Badge | Name | Skin Tone Versions | 
 | :-: | :-: | :-: |
 | ![Starstruck](/Media/Badges/Star-Struck/PNG/Skin-Tones/StarStruck_SkinTone1.png)                 | Starstruck         | <table>  <thead>  <tr>  <th>👋</th> <th>👋🏻</th>  <th>👋🏼</th>  <th>👋🏽</th>  <th>👋🏾</th>  <th>👋🏿</th>  </tr>  </thead>  <tbody>  <tr>  <td align="center"><img src="/Media/Badges/Star-Struck/PNG/Skin-Tones/StarStruck_SkinTone1.png" width="60px"></td>   <td align="center"><img src="/Media/Badges/Star-Struck/PNG/Skin-Tones/StarStruck_SkinTone2.png" width="60px"></td>  <td align="center"><img src="/Media/Badges/Star-Struck/PNG/Skin-Tones/StarStruck_SkinTone3.png" width="60px"></td>  <td align="center"><img src="/Media/Badges/Star-Struck/PNG/Skin-Tones/StarStruck_SkinTone4.png" width="60px"></td>  <td align="center"><img src="/Media/Badges/Star-Struck/PNG/Skin-Tones/StarStruck_SkinTone5.png" width="60px"></td>   <td align="center"><img src="/Media/Badges/Star-Struck/PNG/Skin-Tones/StarStruck_SkinTone6.png" width="60px"></td>   </tr>   <tr>  <td align="center">👋</td> <td align="center">👋🏻</td>  <td align="center">👋🏼</td>  <td align="center">👋🏽</td>  <td align="center">👋🏾</td>  <td align="center">👋🏿</td>  </tr>  </tbody>  </table>      |
